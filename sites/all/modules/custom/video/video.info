@@ -7,5 +7,7 @@ dependencies[] = features
 dependencies[] = text
 features[features_api][] = api:2
 features[field_base][] = body
+features[field_base][] = field_url
 features[field_instance][] = node-video-body
+features[field_instance][] = node-video-field_url
 features[node][] = video

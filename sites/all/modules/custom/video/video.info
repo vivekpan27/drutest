@@ -1,0 +1,11 @@
+name = Video
+description = Enable online video nodes on the site
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-video-body
+features[node][] = video
